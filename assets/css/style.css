@@ -1,0 +1,154 @@
+
+@font-face {
+    font-family: "Nunito";
+    src: url(assets\fonts\Nunito);
+}
+
+@font-face {
+    font-family: "Muli";
+    src: url(assets\fonts\Muli);
+}
+
+* {
+    list-style: none;
+}
+
+body {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgba(45,62,80,255);
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+main {
+    background-color: rgba(236,240,241,255);
+}
+
+footer {
+    background-color: rgba(45,62,80,255);
+    color: whitesmoke;
+}
+
+
+nav #logo1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: smaller;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 60%;
+    padding-right: 15%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.btn {
+    padding: 12px;
+    background-color: rgb(240, 84, 6);
+    border: 1px solid rgb(197, 53, 0);
+    color: whitesmoke;
+    font-family: "Muli", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+#banner {
+    width: 700px;
+}
+
+.cours {
+    display: flex;
+    justify-content: space-around;
+}
+
+.maths {
+    width: 300px;
+    height: 350px;
+    background-color: whitesmoke;
+    margin: 15px;
+    border: 1px solid rgb(190, 190, 190);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+
+}
+
+#mathspic {
+    width: 280px;
+    height: auto;
+}
+
+.science {
+    width: 300px;
+    height: 350px;
+    background-color: whitesmoke;
+    margin: 15px;
+    border: 1px solid rgb(190, 190, 190);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+#sciencepic {
+    width: 280px;
+    height: auto;
+}
+
+.literature {
+    width: 300px;
+    height: 350px;
+    background-color: whitesmoke;
+    margin: 15px;
+    border: 1px solid rgb(190, 190, 190);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+#litpic {
+    width: 280px;
+    height: auto;
+}
+
+#parent1pic {
+    max-width: 15%;
+    height: auto;
+}
+
+#parent2pic {
+    max-width: 15%;
+    height: auto;
+}
+
+#parent3pic {
+    max-width: 15%;
+    height: auto;
+}
+
+#logo2 {
+    width: 300px;
+}
+
+
+
